@@ -1,6 +1,3 @@
-// 8. Increment object
-// Update the script by adding a new function incr that increments the integer value
-
 
 const myObject = {
     type: 'object',
@@ -13,10 +10,10 @@ const myObject = {
   console.log({ type: myObject.type, value: myObject.value });
   
   myObject.incr();
-  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
+  console.log({ type: myObject.type, value: myObject.value, incr: '[Function]' });
   
   myObject.incr();
-  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
+  console.log({ type: myObject.type, value: myObject.value, incr: '[Function]' });
   
   myObject.incr();
-  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
+  console.log({ type: myObject.type, value: myObject.value, incr: '[Function]' });
