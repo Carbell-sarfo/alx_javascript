@@ -4,7 +4,7 @@
 
 const line1 = 'C is fun';
 const line2 = 'Python is cool';
-const line3 = 'Javascript is amazing';
+const line3 = 'JavaScript is amazing';
 
 // printing the various lines in the console
 console.log(line1);
