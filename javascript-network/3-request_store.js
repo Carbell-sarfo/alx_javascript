@@ -19,13 +19,13 @@ request.get(url, (error, response, body) => {
 
   // Check if the response contains a valid status code
   if (response && response.statusCode === 200) {
-    // Write the response body to the specified file (UTF-8 encoded)
+    // Save the response body to the specified file (UTF-8 encoded)
     fs.writeFile(filePath, body, 'utf-8', (writeError) => {
       if (writeError) {
         console.error('Failed to write to the file:', writeError);
         process.exit(1);
       }
-      console.log(`Response body written to ${filePath}`);
+      console.log('Response body written to', filePath);
     });
   } else {
     console.error(`Failed to retrieve web page. Status code: ${response.statusCode}`);
