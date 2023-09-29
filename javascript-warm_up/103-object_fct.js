@@ -10,13 +10,13 @@ const myObject = {
     }
   };
   
-  console.log(myObject);
+  console.log({ type: myObject.type, value: myObject.value });
   
   myObject.incr();
-  console.log(myObject);
+  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
   
   myObject.incr();
-  console.log(myObject);
+  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
   
   myObject.incr();
-  console.log(myObject);
+  console.log({ type: myObject.type, value: myObject.value, incr: myObject.incr });
