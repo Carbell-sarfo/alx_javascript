@@ -1,4 +1,3 @@
-// 2-rectangle.js
 // #!/usr/bin/node
 
 
