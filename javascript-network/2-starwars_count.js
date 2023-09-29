@@ -8,7 +8,7 @@ if (process.argv.length !== 3) {
 
 const apiUrl = process.argv[2];
 
-// Send a GET request to the Star Wars API
+// Send a GET request to the Star Wars API to retrieve all films
 request.get(apiUrl, (error, response, body) => {
   if (error) {
     console.error(error.message);
